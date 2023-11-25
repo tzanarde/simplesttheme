@@ -1,0 +1,1 @@
+/Users/tzanarde/Local Sites/simplesttheme/app/public/wp-content/plugins/query-monitor/wp-content/db.php

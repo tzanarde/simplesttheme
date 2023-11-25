@@ -7,3 +7,10 @@ function simplesttheme_load_scripts(){
 }
 
 add_action('wp_enqueue_scripts', 'simplesttheme_load_scripts');
+
+function simplesttheme_config(){
+    add_theme_support('title-tag');
+    add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption', 'style', 'script' ) );
+}
+
+add_action('after_setup_theme', 'simplesttheme_config');
