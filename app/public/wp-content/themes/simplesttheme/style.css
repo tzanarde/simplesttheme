@@ -1,0 +1,19 @@
+/*
+Theme Name: Simplest Theme
+Theme URI: https://wordpress.org/themes/simplest-theme
+Author: Tiago Zanarde
+Author URI: https://wordpress.org
+Description: The simplest theme possible, with the most basic structure to start creating your own WordPress customized theme
+Requires at least: 6.1
+Tested up to: 6.4
+Requires PHP: 8.1
+Version: 1.0
+License: GNU Genreal Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: simplest-theme
+Tags: one-column, custom-menu, custom-logo, featured-images, translation-ready
+*/
+
+body {
+    background-color: rgb(211, 211, 211);
+}
